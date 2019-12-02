@@ -1,8 +1,13 @@
 The data I will require to execute this project will include:
 
 1.	The geo locations of each of the stations on the network (which I will scrape from Wikipedia)
+    From this I will be able to extract the latitude and logitude of each of the stations which will allow
+    me to plot them on a map and to find the venues near to their location.
+    
 2.	The Foursquare dataset which I will access to ascertain the primary venue types surrounding each station
-    This could be 'residential', or 'education', or 'bars & restaurants' etc.
+    This could be 'residential', or 'education', or 'bars & restaurants' etc. I will pass the Foursquare API
+    the latitude and longitude coordinates for each underground station and it will return to me the varieties
+    of venue in the surrounding area.
 
-Based on the primary venue types surrounding each station I will do a cluster analysis to identify groups of 
-stations and then look at what these groups have in common / what differentiates them from other groups.
+Based on the primary venue types surrounding each station I will be able to do a cluster analysis to identify groups of 
+stations and examine what these groups have in common / what differentiates them from other groups.
