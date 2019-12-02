@@ -1,0 +1,7 @@
+The data I will require to execute this project will include:
+
+1.	The geo locations of each of the stations on the network (which I will scrape from Wikipedia)
+2.	The Foursquare dataset which I will access to ascertain the primary venue types surrounding each station
+
+Based on the primary venue types surrounding each station I will do a cluster analysis to identify groups of 
+stations and then look at what these groups have in common / what differentiates them from other groups.
